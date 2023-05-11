@@ -19,6 +19,7 @@
   - [Install](#install)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
+- [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -112,6 +113,15 @@ Feel free to check the [issues page](https://github.com/PrangonGhose/hello-rails
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Future Features (optional) -->
+
+## 🔭 Future Features <a name="future features"></a>
+
+- [ ] Adding API functionalities and frontend design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -131,11 +141,6 @@ Authors would like to thank:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
