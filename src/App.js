@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getGreetings } from "./redux/greetings";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getGreetings } from './redux/greetings';
 
 function App() {
-  const newVar = useSelector((state) => state.greetings)
+  const newVar = useSelector((state) => state.greetings);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -12,9 +12,12 @@ function App() {
 
   return (
     <>
-      <h1>Random Greeting: {newVar} </h1>
+      <h1>
+        Random Greeting:
+        {newVar}
+      </h1>
     </>
-  )
+  );
 }
 
 export default App;
