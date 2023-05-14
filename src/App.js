@@ -1,21 +1,13 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getGreetings } from './redux/greetings';
+import React from 'react';
+import { Route, Routes } from 'react-router';
+import Greetings from './greetings';
 
 function App() {
-  const newVar = useSelector((state) => state.greetings);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getGreetings());
-  }, [dispatch]);
-
   return (
     <>
-      <h1>
-        Random Greeting:
-        {newVar}
-      </h1>
+      <Routes>
+        <Route exact path="/" element={<Greetings />} />
+      </Routes>
     </>
   );
 }
